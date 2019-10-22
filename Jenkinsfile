@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages{
-        stage(kjkjBuild'){
+        stage('Build'){
             steps {
                 sh 'mvn clean package'
                 sh 'pwd'
@@ -14,4 +14,4 @@ pipeline {
         }
     }
 }
-*/
+
