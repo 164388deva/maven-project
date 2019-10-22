@@ -1,7 +1,7 @@
-/*pipeline {
+pipeline {
     agent any
     stages{
-        stage('Build'){
+        stage(kjkjBuild'){
             steps {
                 sh 'mvn clean package'
                 sh 'pwd'
